@@ -45,13 +45,18 @@ streamlit run app.py
 
 ```
 EDA_Analyst/
-│
-├── data/               # Sample datasets
-├── notebooks/          # Jupyter notebooks for EDA
-├── src/                # Source code
-├── tests/              # Unit tests
-├── requirements.txt    # Python dependencies
-└── README.md           # Project documentation
+├── app.py                  streamlit app
+├── agent/
+│   ├── tools.py            preprocessing agent 
+│   ├── visualizer.py       visulazation agent
+│   └── rag.py              answering agent about eda report
+├── data/
+│   └── sample.csv          dataset
+│   └── eda_report.txt      eda report
+├── images/                 saved plots
+├── main.py                 main interface
+└── .env                    openai api key
+
 ```
 
 ## Contributing
