@@ -7,8 +7,7 @@
 ## Features
 
 - Data loading and preprocessing
-- Automated data profiling
-- Visualization of distributions, correlations, and outliers
+- Visualization of distributions, correlations.
 - Summary statistics and insights
 
 ## Getting Started
@@ -35,6 +34,11 @@
 Run the main script with your dataset:
 ```sh
 python main.py --input data/your_dataset.csv
+```
+
+Run the streamlit app:
+```sh
+streamlit run app.py
 ```
 
 ## Project Structure
