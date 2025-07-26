@@ -1,0 +1,80 @@
+Shape of Dataset: (4000, 12)
+
+
+Column data types:
+house_type           object
+room_count           object
+house_size          float64
+location             object
+city                 object
+latitude            float64
+longitude           float64
+num_bathrooms       float64
+num_balconies       float64
+security_deposit     object
+status               object
+price                 int64
+dtype: object
+
+
+Missing values before filling:
+house_type          509
+room_count            0
+house_size          228
+location              0
+city                  0
+latitude              0
+longitude             0
+num_bathrooms       357
+num_balconies         0
+security_deposit    287
+status                0
+price                 0
+dtype: int64
+
+
+Missing values after filling:
+house_type          0
+room_count          0
+house_size          0
+location            0
+city                0
+latitude            0
+longitude           0
+num_bathrooms       0
+num_balconies       0
+security_deposit    0
+status              0
+price               0
+dtype: int64
+
+
+Statistical Summary:
+        house_type room_count   house_size location    city     latitude    longitude  num_bathrooms  num_balconies security_deposit       status         price
+count         4000       4000  4000.000000     4000    4000  4000.000000  4000.000000    4000.000000    4000.000000             4000         4000  4.000000e+03
+unique           5          9          NaN      347       3          NaN          NaN            NaN            NaN                3            3           NaN
+top     Apartment       2 BHK          NaN  Wagholi  Mumbai          NaN          NaN            NaN            NaN                0  Unfurnished           NaN
+freq          2789       1468          NaN      253    1473          NaN          NaN            NaN            NaN             2256         1696           NaN
+mean           NaN        NaN  1786.649788      NaN     NaN    22.430269    74.717697       2.350261       0.722250              NaN          NaN  1.178060e+05
+std            NaN        NaN  1680.166950      NaN     NaN     4.668927     2.099712       0.943657       0.992397              NaN          NaN  2.031874e+05
+min            NaN        NaN   150.000000      NaN     NaN    18.433994    18.497896       1.000000       0.000000              NaN          NaN  3.000000e+03
+25%            NaN        NaN   774.750000      NaN     NaN    18.631963    72.954966       2.000000       0.000000              NaN          NaN  1.800000e+04
+50%            NaN        NaN  1100.000000      NaN     NaN    19.151100    73.897728       2.000000       0.000000              NaN          NaN  3.500000e+04
+75%            NaN        NaN  1800.000000      NaN     NaN    28.555422    77.157143       3.000000       2.000000              NaN          NaN  1.107500e+05
+max            NaN        NaN  7589.000000      NaN     NaN    30.888254    85.324120       8.000000       6.000000              NaN          NaN  2.236212e+06
+
+
+Unique values per column:
+house_type             5
+room_count             9
+house_size           620
+location             347
+city                   3
+latitude            2015
+longitude           1980
+num_bathrooms          9
+num_balconies          7
+security_deposit       3
+status                 3
+price                494
+dtype: int64
